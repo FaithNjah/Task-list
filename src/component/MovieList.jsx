@@ -5,7 +5,11 @@ import Movies from './Movies'
 const MovieList = () => {
 //use state for any thing that is dynamic
 //adding to the set movie
-    const [Movie, setMovie] = useState([])
+    const [Movie, setMovie] = useState([{
+      name: 'one',
+      category: 'cartoon',
+      id:1
+    }])
 
 const [name, setName] = useState()
 const [category, setCategory] = useState()
