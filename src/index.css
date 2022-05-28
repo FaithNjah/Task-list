@@ -1,0 +1,65 @@
+.body{
+  padding: 1% 10% 20% 10%;
+  font-family: cursive;
+  margin: 100px;
+  background-color: rgb(226, 253, 190);
+  border-radius: 10px;
+  
+}
+
+.header{
+  text-align: center;
+  margin: 50px;
+}
+
+.Nav{
+  
+  background-color: rgb(207, 182, 248);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.Navbar{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form{
+  position: relative;
+  background-color: rgb(166, 209, 250);
+  width: 500px;
+  border-radius: 40px;
+  padding: 0.5px;
+  margin: 5px;
+ height: 450px;
+  top: 10px;
+}
+
+.form-control{
+  margin: 60px;
+}
+.second-form{
+  position: relative;
+  background-color: rgb(166, 209, 250);
+  width: 300px;
+  border-radius: 40px;
+  padding: 0.5px;
+  margin: 5px;
+  height: 260px;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+
+.btn{
+  border-radius: 10px;
+  border: rgb(180, 3, 39);
+  background-color: rgb(253, 208, 217);
+  height: 50px;
+  width: 150px;
+}
