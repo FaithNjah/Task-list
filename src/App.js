@@ -1,16 +1,18 @@
 
-import React from 'react'
-import BookList from './component/BookList'
-import MovieList from './component/MovieList'
+import React from 'react';
+import LandingPage from './component/landingPage/LandingPage';
+import Body from "./component/Body/Body"
+import Footer from "./component/Footer/Footer"
 
 const App = () => {
   return (
-    <div className = ''>
-      
-      <MovieList />
-      
+    <div className = "">
+      <LandingPage />
+      <Body />
+      <Footer />
     </div>
   )
 }
 
 export default App
+
